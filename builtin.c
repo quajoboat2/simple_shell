@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 /**
  * exit_bul - Exit Statue Shell
  * @cmd: Parsed Command

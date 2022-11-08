@@ -1,32 +1,35 @@
-#ifdef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
+/**###### environ var ######*/
+
+extern char **environ;
+
+/**##### MACROS ######*/
+
+#define BUFSIZE 1024
+#define DELIM " \t\r\n\a"
+#define PRINTER(c) (write(STDOUT_FILENO, c, _strlen(c)))
+
+/**###### LIBS USED ######*/
 
 #include <stdio.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <string.h>
 #include <unistd.h>
 #include <sys/types.h>
+#include <string.h>
 #include <sys/wait.h>
-#include <time.h>
-#include <stdbool.h>
-#include <sys/stat.h>
+#include <stdlib.h>
 #include <signal.h>
+#include <sys/stat.h>
 #include <fcntl.h>
 #include <errno.h>
 #include <linux/limits.h>
 
 
-extern char **environ;
-
-/* macros*/
-#define BUFSIZE 1024
-#define DELIM " \t\r\n\a"
-#define PRINTER(c) (write(STDOUT_FILENO, c, _strlen(c)))
 
 
-/* dependent function*/
-/* STRING FUNCTION */
+
+/**###### STRING FUNCTION ######*/
 
 char *_strtok(char *str, const char *tok);
 unsigned int check_delim(char c, const char *str);
@@ -46,7 +49,7 @@ char *_strchr(char *s, char c);
 int _strncmp(const char *s1, const char *s2, size_t n);
 char *_strdup(char *str);
 
-/* MEMORY MANAGEMENT */
+/**###### MEMORIE  MANGMENT ####*/
 
 void free_env(char **env);
 void *fill_an_array(void *a, int el, unsigned int len);
@@ -55,13 +58,13 @@ void *_calloc(unsigned int size);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 void free_all(char **input, char *line);
 
-/* INPUT FUNCTIONS */
+/**###### INPUT Function ######*/
 
 void prompt(void);
 void signal_to_handel(int sig);
 char *_getline(void);
 
-/* Command parser and extractor */
+/** ###### Command parser and extractor ###*/
 
 int path_cmd(char **line);
 char *_getenv(char *name);
@@ -75,7 +78,7 @@ int check_cmd(char **tokens, char *line, int count, char **argv);
 void treat_file(char *line, int counter, FILE *fd, char **argv);
 void exit_bul_for_file(char **cmd, char *line, FILE *fd);
 
-/*BUL FUNCTION */
+/** ####BUL FUNC #####*/
 
 void hashtag_handle(char *buff);
 int history(char *input);
@@ -87,7 +90,7 @@ int echo_bul(char **cmd, int er);
 void  exit_bul(char **cmd, char *input, char **argv, int c);
 int print_echo(char **cmd);
 
-/*ERROR HANDLER AND PRINTER*/
+/** ####error handle and Printer ####*/
 void print_number(unsigned int n);
 void print_number_in(int n);
 void print_error(char *line, int c, char **argv);

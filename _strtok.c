@@ -1,3 +1,4 @@
+#include <stddef.h>
 #include "main.h"
 /**
 * check_delim - Checks If A Character Match Any Char *
