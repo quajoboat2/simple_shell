@@ -10,16 +10,33 @@ These are the files with custom system calls and functions with a brief descript
 
 |  ***file***  | ***Description***     |
 |-------------|------------------------|
-| ['shell.h'](./shell.h) | Header file with prototypes |
-| ['shell.c'](./shell.c) | Main File to execute |
+| ['main.h'](./main.h) | Header file with prototypes |
+| ['main.c'](./main.c) | Main File to execute |
 | ['README.md'](./README.md) | Readme.md file |
-| ['man_1_simple_shell'](./man_1_simple_shell) | The manual Page |
-| ['str_helpers.c'](./str_helpers.c) | File containing functions to help with string manipulation |
-| ['path_helpers.c'](./path_helpers.c) | File containing functions to help with PATH handling |
-| ['built-ins.c'](./built-ins.c) | File containing buitins |
-| ['helpers.c'](./helpers.c) | File containing helper functions such as exec_cmd |
-
-
+| ['built-in.c'](./built-in.c) | File containing builtins |
+| ['AUTHORS'](./AUTHORS) | The manual Page |
+| ['parsing.c'](./parsing.c) | File containing functions to help with string manipulation |
+| ['strtok.c'](./_strtok.c) |   |
+| ['helpers.c'](./helpers.c) |   |
+| ['char_fun.c'](./char_fun.c) |   |
+| ['execute.c'](./execute.c) |   |
+| ['execute_file.c'](./execute_file.c) |   |
+| ['finding_path.c'](./finding_path.c) |   |
+| ['get_line.c'](./get_line.c) |   |
+| ['history.c'](./history.c) |   |
+| ['hsh'](./hsh) |   |
+| ['main.c'](./main.c) |   |
+| ['main.h'](./main.h) |   |
+| ['memmory_management.c'](./memmory_management.c) |   |
+| ['more_bul.c'](./more_bul.c) |   |
+| ['more_char_fun.c'](./more_char_fun.c) |   |
+| ['more_fun.c'](./more_fun.c) |   |
+| ['output.c'](./output.c) |   |
+| ['parsing.c'](./parsing.c) |   |
+| ['printer.c'](./printer.c) |   |
+| ['main.h'](./msin.h) |   |
+| ['main.h'](./msin.h) |   |
+| ['prompetfun.c'](./prompetfun.c) |   |
 
 ## Requirements
 This simple_shell project is designed to run on the Ubuntu 20.04 LTS using gcc, and can be compiled using the options -wall - werror -wextra -pedantic -std=gnu89
