@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  _prerror - Print Custome Error
+ *  _prerror - This function Prints Custom Error
  * @argv:Program Name
  * @c:Error Count
  * @cmd:Command
