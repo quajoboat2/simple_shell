@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
+ * _putchar - This program writes the character c to stdout
  * @c: The character to print
  *
  * Return: On success 1.
@@ -12,7 +12,7 @@ int _putchar(char c)
 	return (write(1, &c, 1));
 }
 /**
- * _strncpy - copie a string
+ * _strncpy - This program copies a string
  * @dest:char
  *  @src:char
  * @n:int
@@ -38,7 +38,7 @@ i = 0;
 }
 
 /**
- * _strlen - lenght of string
+ * _strlen - This program returns the length of a string
  * @s:char
  * Return:int
  */
@@ -80,7 +80,7 @@ int i, j, n, x;
 	return (n);
 }
 /**
- * _puts - print a string
+ * _puts - This program prints a string
  * @str:pointer char
  * return:void
  */
