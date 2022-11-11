@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* read_file - Read Command From File
+* read_file - This function Reads Command From File
 * @filename:Filename
 * @argv:Program Name
 * Return: -1 or  0
@@ -30,7 +30,7 @@ void read_file(char *filename, char **argv)
 	exit(0);
 }
 /**
- * treat_file - PARSE Check Command Fork Wait Excute in Line of File
+ * treat_file - PARSE This function Checks Command Fork Wait Excute in Line of File
  * @line: Line From A File
  * @counter:Error Counter
  * @fp:File Descriptor
@@ -60,7 +60,7 @@ void treat_file(char *line, int counter, FILE *fp, char **argv)
 		}
 }
 /**
- * exit_bul_for_file - Exit Shell Case Of File
+ * exit_bul_for_file - This fuction Exits Shell Case Of File
  * @line: Line From A File
  * @cmd: Parsed Command
  * @fd:File Descriptor
