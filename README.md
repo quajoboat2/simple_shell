@@ -10,23 +10,22 @@ These are the files with custom system calls and functions with a brief descript
 
 |  ***file***  | ***Description***     |
 |-------------|------------------------|
-| ['main.h'](./main.h) | Header file with prototypes |
-| ['main.c'](./main.c) | Main File to execute |
+| ['.simple_shell_history'](./.simple_shell_history) |   |
+| ['AUTHORS'](./AUTHORS) | The list of contributors |
 | ['README.md'](./README.md) | Readme.md file |
-| ['built-in.c'](./built-in.c) | File containing builtins |
-| ['AUTHORS'](./AUTHORS) | The manual Page |
-| ['parsing.c'](./parsing.c) | File containing functions to help with string manipulation |
 | ['strtok.c'](./_strtok.c) |   |
-| ['helpers.c'](./helpers.c) |   |
+| ['built-in.c'](./built-in.c) | File containing builtins |
 | ['char_fun.c'](./char_fun.c) |   |
+| ['parsing.c'](./parsing.c) | File containing functions to help with string manipulation |
+| ['helpers.c'](./helpers.c) |   |
 | ['execute.c'](./execute.c) |   |
 | ['execute_file.c'](./execute_file.c) |   |
 | ['finding_path.c'](./finding_path.c) |   |
 | ['get_line.c'](./get_line.c) |   |
 | ['history.c'](./history.c) |   |
 | ['hsh'](./hsh) |   |
-| ['main.c'](./main.c) |   |
-| ['main.h'](./main.h) |   |
+| ['main.c'](./main.h) | Main File to execute |
+| ['main.h'](./main.c) | Header file with prototypes |
 | ['memmory_management.c'](./memmory_management.c) |   |
 | ['more_bul.c'](./more_bul.c) |   |
 | ['more_char_fun.c'](./more_char_fun.c) |   |
@@ -34,8 +33,6 @@ These are the files with custom system calls and functions with a brief descript
 | ['output.c'](./output.c) |   |
 | ['parsing.c'](./parsing.c) |   |
 | ['printer.c'](./printer.c) |   |
-| ['main.h'](./msin.h) |   |
-| ['main.h'](./msin.h) |   |
 | ['prompetfun.c'](./prompetfun.c) |   |
 
 ## Requirements
