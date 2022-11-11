@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * history - Fill File By User Input
+ * history - This function Fills Files By User Input
  * @input: User Input
  * Return: -1 Fail 0 Succes
  */
@@ -26,7 +26,7 @@ int history(char *input)
 	return (1);
 }
 /**
- * free_env - Free Enviroment Variable Array
+ * free_env - This is the Free Enviroment Variable Array function
  * @env:  Environment variables.
  * Return: Void
  */
