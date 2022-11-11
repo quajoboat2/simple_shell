@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcmp - Compare Two String
+ * _strcmp - This function Compares Two String
  * @s1:String 1
  * @s2:String 2
  * Return: 0 If Identical Otherwise How Much Diffrent
@@ -29,7 +29,7 @@ len2 = _strlen(s2);
 	return (cmp);
 }
 /**
- * _isalpha - Check if Alphabtic
+ * _isalpha - This function Checks if strings are Alphabtic
  *@c: Character
  * Return: 1 If True 0 If Not
  */
@@ -71,7 +71,7 @@ char *_itoa(unsigned int n)
 	return (s);
 }
 /**
- *  array_rev - Reverse Array
+ *  array_rev - This function creates Reverse Array
  * @arr:Array To Reverse
  * @len:Length Of Array
  * Return: Void(Reverse Array)
@@ -89,7 +89,7 @@ void array_rev(char *arr, int len)
 	}
 }
 /**
- * intlen - Determine Length Of Int
+ * intlen - This function Determines the Length Of Int
  * @num: Given Int
  * Return: Length Of Int
  */
