@@ -11,7 +11,6 @@ These are the files with custom system calls and functions with a brief descript
 |  ***file***  | ***Description***     |
 |-------------|------------------------|
 | ['.simple_shell_history'](./.simple_shell_history) |   |
-| ['AUTHORS'](./AUTHORS) | The list of contributors |
 | ['README.md'](./README.md) | Readme.md file |
 | ['strtok.c'](./_strtok.c) |   |
 | ['built-in.c'](./built-in.c) | File containing builtins |
@@ -55,4 +54,3 @@ The code should use the [Betty style](https://github.com/holbertonschool/Betty).
 
 ## Authors
 * **Adu Boateng Richard
-
