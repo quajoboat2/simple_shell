@@ -54,6 +54,5 @@ The code should use the [Betty style](https://github.com/holbertonschool/Betty).
 * env 'display the environment'
 
 ## Authors
-* **Daniel Boateng** - [coder](https://github.com/Dan-Boat)
-* **Oyindamola Ekundayo** - [collaborator](https://github.com/ekundayo365)
+* **Adu Boateng Richard
 
