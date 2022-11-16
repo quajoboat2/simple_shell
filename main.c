@@ -76,7 +76,7 @@ int check_builtin(char **cmd)
 	return (-1);
 }
 /**
- * creat_envi - Creat Array of Enviroment Variable function 
+ * creat_envi - Creat Array of Enviroment Variable function
  * @envi: Array of Enviroment Variable
  * Return: Void
  */
