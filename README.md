@@ -2,7 +2,7 @@
 ## Simple Shell (C milestone project)
 - would be updated fater adding man
 
-* This is a collaborative project made by Daniel Boateng and Oyindamola Ekundayo, Students of software engineering at ALX Africa. This repo contains files for the **simple_shell project**. The project requires us to develop our own UNIX command interpreter (shell).
+* This is an individual project made by Adu Boateng Richard, Student of software engineering at ALX Africa. This repo contains files for the **simple_shell project**. The project requires us to develop our own UNIX command interpreter (shell).
 
 ## File structure
 
